@@ -1,8 +1,8 @@
 [build]
   command = "next build"
-  publish = ".next"          # The plugin handles routing/functions
+  publish = ".next"
 
-[plugins]
+[[plugins]]
   package = "@netlify/plugin-nextjs"
 
 [build.environment]
