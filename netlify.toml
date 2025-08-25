@@ -1,0 +1,9 @@
+[build]
+  command = "next build"
+  publish = ".next"          # The plugin handles routing/functions
+
+[plugins]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NODE_VERSION = "20"
