@@ -62,9 +62,9 @@ export default function Present() {
         className="text-center"
       >
         {/* TODO: Change these text options based on your present */}
-        <div className="text-8xl mb-8">🎁</div>
+        <div className="text-8xl mb-8">🎂💐</div>
         <div className="text-[#9cdcfe] text-2xl font-bold font-mono mb-8">
-          it&apos;s a [present]
+          it&apos;s a present 
         </div>
 
         <div className="flex gap-4 justify-center">
